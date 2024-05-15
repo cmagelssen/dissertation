@@ -1,5 +1,8 @@
 \documentclass{report}
-\usepackage{biblatex} %Imports biblatex package
+\usepackage[
+backend=biber,
+style=nature,
+]{biblatex}
 \addbibresource{references.bib} %Import the bibliography file
 \usepackage{graphicx} % Required for inserting images
 \usepackage{float}
@@ -15,15 +18,14 @@
 
 \listoffigures
 
-\chapter{Background}
+\chapter{Introduction}
 \input{chapter/background}
 
-\chapter{Introduction}
+\chapter{Background}
 \input{chapter/introduction}
 
 \chapter{Aims}
 \input{chapter/aims}
-
 
 
 
