@@ -1,11 +1,11 @@
 \newcommand{\RNum}[1]{\uppercase\expandafter{\romannumeral #1\relax}}
 
 \section{Study overview}
-Studie \RNum{1} var å teste om kontekstuell interference kan bidra til å forbedre oppgavene utøverne blir satt til å løse. 
+The dissertation is based on data from two large learning experiments, referred to as Study 1 and Study 2. Each of these experiments has resulted in multiple articles, some published in journals, others as preprints, or included as additional analyses in this dissertation. 
 
-Studie \RNum{2} var å teste om reinforcement learning er en bedre læringsstrategi for å hjelpe utøvere til å ta gode strategivalg sammenlignet med tradisjonell coaching instruksjon (supervised learning). For å teste dette designet vi en læringsintervensjon som gikk over tre dager. I læringsintervensjonen brukte vi et between-subjects design og multi-armed bandit.  Studie \RNum{2} besvarte hvilke av disse strategiene som utøverne presterte best med. 
+Study \RNum{1} was designed to test whether frequent task switching can enhance learning. This experiment spanned eight days, starting with a baseline test on day one, followed by three days of training intervention. This training intervention contrasted two training groups learning to pump on flat slopes in slalom: an interleaved training group, which practiced pumping on three slalom courses each day in interleaved order (ensuring skiers never repeated the same slope consecutively), and a blocked training group, which practiced pumping on one slalom course each day (with the order counterbalanced across skiers). After the training period, the skiers had a three-day break without skiing. On the third day, they completed a retention test. This study resulted in Paper \RNum{1}, which reports the learning effects between the two learning groups. Additionally, we collected positional data from the skiers using a local positioning system during the baseline and retention to study the kinematic changes due to the intervention. This analysis is reported in Paper \RNum{2}. 
 
-
+Study \RNum{2} was designed to identify the most effective teaching signal for helping skilled performers learn strategy selection to enhance performance. This learning experiment spanned three days, beginning with a baseline test on day 1. This baseline test was followed by a training intervention (acquisition) consisting of three training sessions. The intervention contrasted reinforcement learning with two supervised learning groups as teaching signals. In the reinforcement learning group, the skiers learned to select optimal strategies by seeing their times to inform their next strategy choice. Conversely, in the supervised learning groups, the coaches selected strategies for the skiers. In the supervised (target skill) learning group, we educated experienced coaches on the theoretically optimal strategy and instructed them to select this strategy for the skiers and give them feedback on this strategy after every trial. In the supervised (free choice) learning group, we recruited two coaches from each group of the tested ski teams to select a strategy that they believed would make the skier faster. Before allowing the skiers (reinforcement learning) or the coaches (supervised learning) to freely choose strategies, we conducted a forced exploration session where all participants tested every strategy. On day 3, the skiers performed a retention test and a transfer test, independently select strategies. This study resulted in Paper \RNum{3}, which reports the learning effects of the two teaching signals on strategy selection. Additionally, we used data from the forced exploration session to analyze and estimate which strategies yielded the best performance for the skiers. Denne analysen er også gjort Paper\RNum{3}, men vi har gjort en ekstra analyse som vi har rapportert her. 
 \begin{figure}[H]
 \centering
 \includegraphics{figure_method_experiment.pdf}
@@ -15,6 +15,13 @@ Studie \RNum{2} var å teste om reinforcement learning er en bedre læringsstrat
 
 \section{Setup}
 All studies were conducted in the indoor ski hall, SNØ, located in Oslo, Norway (\url{https://snooslo.no/}). In this ski hall, we used the upper part of the race hill, which is a long flat section with two small rollers. The snow of this flat section was watered before testing each group of skiers to ensure uniform and fair conditions for all skiers. 
+
+\begin{figure}
+    \centering
+    \includegraphics[width=1\linewidth]{figure/figure_methods_courses.pdf}
+    \caption{Enter Caption}
+    \label{fig:enter-label}
+\end{figure}
 
 In study \RNum{1}, we set up three slalom courses to test the contextual interference effect. These courses required skiers to execute pumping movements with different timings and amplitudes for effective performance. All three courses had a vertical gate distance of 10 meters due to space constraints, forcing parallel setup. However, the courses had varying offsets: 1.2 meters for Course A, 1.7 meters for Course B, and 2.2 meters for Course C. These specific gate offsets were chosen to create diverse pumping demands without making it impossible to pump. Fig. 
 
@@ -44,14 +51,93 @@ Three days (72 hours) after the last training session, the skiers returned for a
 
 
  \subsection{Study 2}
-In study 2, brukte vi et between-subjects design og framet oppgaven om å velge gode strategier som et multi-armed bandit problem \cite{sutton_reinforcement_2018} (see methodeseksjonen i paper 3 for en beskrivelse av dette problemet). I denne studien var valgmulighetene (eller bandits) som utøverne måtte lære handlingsverdien og velge for å kjøre raskest mulig på ski de fire tekniske strategien vi har utbrodert i seksjon \ref{introduction: strategies}. 
+In Study 2, we employed a between-subjects design and framed the task of learning to choose effective strategies as a multiarmed bandit problem\cite{sutton_reinforcement_2018} (see the methods section in Paper 3 for a detailed description). Here, the options (or bandits) that the skiers needed to learn and select to ski as quickly as possible were the four technical strategies detailed in section \ref{introduction: strategies}.
 
-Læringseksperimentet begynte med en baseline som bestod av fire runder i slalåmløypen (main course in fig), pluss en straightgliding runde der utøverne kjørte ned løypeseksjonen i en egen dedikert bane for dette. Før utøverne gjennomførte disse fire rundene og straight glidingen gjennomførte de to oppvarmingsrunde: en gjennomført som frikjøring og som gjennomført som oppvarming i løypen, der de fikk instruksjoner og tilbakemelding på utførelsen av startprosedyren. 
+To determine which teaching signals most effectively drive this learning process, we allocated skiers into one of three learning groups. In the supervised (target skill) learning group, the skiers were instructed by a coach to choose the theoretically best strategy (that is, extend with rock skis forward) and received feedback on their execution of this strategy after every trial. For this learning group, we engaged highly experienced ski coaches to ensure credibility in promoting this strategy, and these coaches were educated by us before the data collection. To the skiers, these coaches told that the 'extend with rock skis forward’ strategy was the most effective strategy for skiing fast on flat terrain in slalom, citing theory and quantitive evidence from research literature in alpine skiing mechanics \cite{reid_kinematic_2010, mote_accelerations_1983, lind_physics_2013, lemaster_skiers_1999, lemaster_ultimate_2010}. In the supervised (free choice) learning group, the skiers were assigned to one of two coaches selected from the ski team undergoing testing. These coaches were instructed to maximize their assigned group of skiers' performance in the slalom course by choosing one of the four strategies for each trial. Although the coaches in these two supervised learning groups had access to the skiers’ data after each trial, they were not allowed to share the times with the skiers. In contrast, the reinforcement learning group learned the value of these strategies themselves by observing the times for a chosen strategy after every trial to guide their strategy choices, with the aim to select the best strategy. This group was not assigned a coach but a person to communicate with the skiers, record their choices, and encourage them to ski quickly to prevent boredom effects. See the original paper for more information.
 
-Etter dette delte allokerte vi utøverne i tre læringsgrupper
+Læringseksperimentet begynte med en baseline som bestod av fire runder i slalåmløypen (main course in fig), pluss en straightgliding runde der utøverne kjørte rett ned løypeseksjonen i en egen dedikert bane for dette. Før utøverne gjennomførte disse fire rundene og straight glidingen gjennomførte de to oppvarmingsrunde: en gjennomført som frikjøring og som gjennomført som oppvarming i løypen, der de fikk instruksjoner og tilbakemelding på utførelsen av startprosedyren. 
+
+Etter dette allokerte vi utøverne i tre læringsgrupper supervised (target skill) learning, supervised (free choice) learning and reinforcement learning. For denne oppgaven brukte vi en randomisert blocked approach for å ta hensyn til preeksisterende forskjeller mellom utøvere. Specifically, we computed each skier’s average across the four trials at baseline and ranked them accordingly. We then created \textit{n} blocks with block sizes corresponding to our three learning groups for the entire list of skiers and assigned these skiers to these predefined blocks. Finally, we randomly allocated the skiers to the different learning groups within each block (Fig. \ref{fig:experiment}b). I mellomtiden hadde utøverne en pause på 60 minutter i varm sone. 
+
+The learning groups participated in sessions at different times to prevent treatment
+diffusion \cite{maxwell_designing_2017}. Since the ski group consisted of teams that regularly trained and lived together during data collection, they were instructed to keep session information private. To complete the learning experiment within the ski hall's opening hours, the two supervised learning groups underwent training simultaneously. We arranged coach stations in the finishing area with space and vision dividers to prevent information leakage between coaches. Additionally, a Python script was used to fetch race times from the timing system, which were filtered for each coach and transmitted to the respective station so that each coach could only see their own skiers' times. The learning group that begun traing after the learning group assignment (reinforcement learning versus supervised learning) was randomized and counterbalanced across the ski teams tested. 
+
+During the first session following the learning group assignment, we engaged the skiers in forced exploration. We gathered the skiers within each learning group and began by introducing them to the four strategies identified to enhance racing times on flat slopes in slalom. Each strategy was detailed with illustrative drawings and word explanations, as outlined in (SJEKK). To ensure understanding, skiers participated in two short familiarization trials for each strategy or continued until their execution met our standards.
+
+After reviewing the strategies, we asked the skiers and the coaches in the supervised (free choice) learning group to rank the strategies (1=best; 4=worst) based on their perceived effectiveness in improving race times on flat sections of a slalom course. We explicitly instructed the coaches and skiers not to discuss the strategies with each other during the instruction and ranking process. Notably, the same instructor conducted all learning sessions within the tested ski group.
+
+Following this review, the skiers performed eight trials on the slalom course, testing all strategies with two trials per strategy. Strategies were randomly assigned, ensuring that the first and last four trials included all strategies. During this session, the reinforcement learning group received feedback on their timing, while the coach provided feedback in the supervised learning groups.
+
+ 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The first session following the learning group assignment was forced exploration. In this session, we gathered the skiers within each learning group and began by introducing them to the strategies. We explained that we had identified four strategies to enhance racing times on flat slopes in slalom. Each strategy was then detailed, supported by illustrative drawings in Fig. \ref{fig: strategies}) and corresponding word explanations as outlined in (SJEKK). To confirm the skiers had understood the strategies, we conducted two short familiarization trials for each strategy or until the skiers' execution met our strategy execution standards. After reviewing the strategies, we asked the skiers and the coaches in supervised (free choice) learning groip to rank the strategies (1=best; 4=worst) based on what they believed would best improve race times in the flat section of a slalom course. During the instruction and ranking process, the coaches and skiers were explicitly instructed not to discuss the strategies with each other. Notably, the same instructor was used for all learning groups within the tested ski group. After this review, the skiers performed eight trials in the slalom course where they tested all strategies (two trials for each strategy). These strategies were randomly assigned to each skier under the condition that the first and last four trials included all strateiges. During this session, the reinforcement learning group received feedback on their timing, whereas the coach provided feedback in the supervised learning groups.
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The first session after learning group assignment involved a forced exploration.
+Here, skiers within the learning group were gathered, and the session started by intro-
+ducing them to the strategies. We explained that we had identified four strategies to
+enhance racing times on flat slopes in slalom. Subsequently, each strategy was detailed,
+supported by illustrative drawings in 1b Figure and corresponding word explanations
+as outlined in the Supplementary A. To confirm comprehension, we conducted two
+short familiarization trials for each strategy or until the execution met our performance
+standards. After reviewing the strategies with the skiers, we gathered them in their
+respective learning group and asked them to rank the strategies (1=best; 4=worst) for
+what they believe to be the best strategies for improving race times in the flat section
+of a slalom course. Throughout the instruction and ranking process, skiers were explic-
+itly instructed not to discuss the strategies with each other. It is important to note that
+the same instructor was used for all learning groups within the tested ski group. After
+this, the skiers conducted a total of eight trials on the course, with two trials for each
+strategy. Here, we handled the practice order effect probabilistically by randomizing
+the order for each skier, under the condition that the first and last four trials tested
+all strategies. During these trials, the reinforcement learning group received feedback on the timing, whereas the coach provided feedback in the supervised learning groups
 
 
 
