@@ -27,6 +27,38 @@ sd(Intercept) & 0.46 &  &  &  &  &   \\
 sd(Observation) & 0.33 &  &  &  &  &  \\ 
    \hline
 \end{tabular}
-\footnotetext{Formula: )}
-\footnotetext{rl = reinforcement learning; slfc = supervised (free choice) learning, slts = supervised (target skill) learning, b="extend", c="rock skis forward", d="extend with rock skis forward"}
+\end{table}
+
+\subsubsection{Interaction model}
+
+\begin{table}[ht]
+\caption{Race times: differences in improvement across trial blocks}\label{ci_acuisition}
+\centering
+\begin{tabular}{llrrrrrrl}
+  \hline
+Term & Estimate & SE & df & CI & t & p \\ 
+  \hline
+(Intercept) & 0.52 & 0.21 & 5.81 & -0.01-1.05 & 2.44 &    0.052 \\ 
+course B & 0.87 & 0.03 & 499.63 & 0.80-0.93 & 25.70 &  $<$  0.001 \\ 
+course C & 2.04 & 0.03 & 503.12 & 1.97-2.11 & 59.69 &  $<$  0.001 \\ 
+block 2 & -0.21 & 0.03 & 499.93 & -0.28--0.14 & -6.29 &  $<$  0.001 \\ 
+block 3 & -0.33 & 0.03 & 500.58 & -0.40--0.27 & -9.72 &  $<$  0.001 \\ 
+course A : blocked & 0.11 & 0.17 & 69.34 & -0.22-0.44 & 0.66 &    0.509 \\ 
+course B : blocked & 0.05 & 0.17 & 69.06 & -0.28-0.38 & 0.29 &    0.772 \\ 
+course C : blocked & 0.18 & 0.17 & 69.52 & -0.15-0.51 & 1.08 &    0.283 \\ 
+course B : block 2 & -0.02 & 0.08 & 499.43 & -0.18-0.14 & -0.25 &    0.801 \\ 
+course C : block 2 & 0.02 & 0.08 & 499.43 & -0.14-0.18 & 0.25 &    0.804 \\ 
+course B : block 3 & 0.01 & 0.08 & 499.47 & -0.16-0.17 & 0.07 &    0.940 \\ 
+course C : block 3 & -0.00 & 0.08 & 499.45 & -0.17-0.16 & -0.02 &    0.988 \\ 
+course A : blocked : block 2 & -0.13 & 0.12 & 499.60 & -0.36-0.10 & -1.11 &    0.265 \\ 
+course B : blocked : block 2 & 0.06 & 0.11 & 499.60 & -0.17-0.28 & 0.50 &    0.615 \\ 
+course C : blocked : block 2 & -0.06 & 0.12 & 499.60 & -0.29-0.17 & -0.54 &    0.591 \\ 
+course A : blocked : block 3 & -0.05 & 0.12 & 499.85 & -0.28-0.18 & -0.43 &    0.671 \\ 
+course B : blocked : block 3 & 0.16 & 0.12 & 499.83 & -0.07-0.40 & 1.41 &    0.160 \\ 
+course C : blocked : block 3 & 0.17 & 0.12 & 499.88 & -0.06-0.40 & 1.42 &    0.156 \\ 
+sd(Intercept) & 0.64 &  &  &  &  &  & \\ 
+sd(Intercept) & 0.46 &  &  &  &  &  &  \\ 
+sd(Observation) & 0.33 &  &  &  &  &  &  \\ 
+   \hline
+\end{tabular}
 \end{table}
