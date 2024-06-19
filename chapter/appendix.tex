@@ -1,3 +1,19 @@
+\section{Details of statistical models}\label{study3:estimateddifferencebetweenstrategies}
+
+Model 1: Differences in race times between the strategies during the forced exploration session
+
+\begin{verbatim}
+brm(formula = racingtime ~ 0 + strategy + 
+          (0 + strategy | skier),
+    prior = c(prior(normal(16, 0.5), class = b),
+              prior(exponential(1), class = sigma),
+              prior(exponential(1), class = sd)),
+    control = list(adapt_delta = 0.95),
+    family = gaussian)
+\end{verbatim}
+
+
+
 \subsection{Racetimes: difference between learning groups for each course at each trial block}\
 \begin{table}[ht]\label{paper1: racetimedifferencebetweentreatments}
 \centering
