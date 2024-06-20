@@ -23,9 +23,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="pt"
      showgrid="false"
-     inkscape:zoom="3.0083635"
-     inkscape:cx="177.17274"
-     inkscape:cy="158.55797"
+     inkscape:zoom="4.2544684"
+     inkscape:cx="306.97137"
+     inkscape:cy="184.27684"
      inkscape:window-width="5120"
      inkscape:window-height="1369"
      inkscape:window-x="-8"
@@ -2020,7 +2020,7 @@
      y1="204.25"
      x2="34.07"
      y2="38.529999"
-     style="stroke:#000000;stroke-width:0.4;stroke-linecap:butt;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     style="stroke:#53676c;stroke-width:0.4;stroke-linecap:butt;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
      id="line27526"
      clip-path="url(#clipPath29608)" />
   <line
@@ -2028,7 +2028,7 @@
      y1="204.25"
      x2="54.650002"
      y2="38.529999"
-     style="stroke:#000000;stroke-width:0.4;stroke-linecap:butt;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     style="stroke:#53676c;stroke-width:0.4;stroke-linecap:butt;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
      id="line27528"
      clip-path="url(#clipPath29602)" />
   <line
@@ -2036,7 +2036,7 @@
      y1="204.25"
      x2="75.690002"
      y2="38.529999"
-     style="stroke:#000000;stroke-width:0.4;stroke-linecap:butt;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     style="stroke:#53676c;stroke-width:0.4;stroke-linecap:butt;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
      id="line27530"
      clip-path="url(#clipPath29596)" />
   <line
@@ -2044,7 +2044,7 @@
      y1="204.25"
      x2="95.800003"
      y2="38.529999"
-     style="stroke:#000000;stroke-width:0.4;stroke-linecap:butt;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     style="stroke:#53676c;stroke-width:0.4;stroke-linecap:butt;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
      id="line27532"
      clip-path="url(#clipPath29590)" />
   <line
@@ -2052,7 +2052,7 @@
      y1="204.25"
      x2="112"
      y2="38.529999"
-     style="stroke:#000000;stroke-width:0.4;stroke-linecap:butt;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     style="stroke:#53676c;stroke-width:0.4;stroke-linecap:butt;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
      id="line27534"
      clip-path="url(#clipPath29584)" />
   <polyline
@@ -2338,7 +2338,7 @@
      y1="204.25"
      x2="125.28"
      y2="38.529999"
-     style="stroke:#000000;stroke-width:0.4;stroke-linecap:butt;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     style="stroke:#53676c;stroke-width:0.4;stroke-linecap:butt;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
      id="line27653"
      clip-path="url(#clipPath30011)" />
   <line
@@ -2346,7 +2346,7 @@
      y1="204.25"
      x2="145.86"
      y2="38.529999"
-     style="stroke:#000000;stroke-width:0.4;stroke-linecap:butt;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     style="stroke:#53676c;stroke-width:0.4;stroke-linecap:butt;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
      id="line27655"
      clip-path="url(#clipPath30005)" />
   <line
@@ -2354,7 +2354,7 @@
      y1="204.25"
      x2="166.89999"
      y2="38.529999"
-     style="stroke:#000000;stroke-width:0.4;stroke-linecap:butt;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     style="stroke:#53676c;stroke-width:0.4;stroke-linecap:butt;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
      id="line27657"
      clip-path="url(#clipPath29999)" />
   <line
@@ -2362,7 +2362,7 @@
      y1="204.25"
      x2="187.00999"
      y2="38.529999"
-     style="stroke:#000000;stroke-width:0.4;stroke-linecap:butt;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     style="stroke:#53676c;stroke-width:0.4;stroke-linecap:butt;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
      id="line27659"
      clip-path="url(#clipPath29993)" />
   <line
@@ -2370,7 +2370,7 @@
      y1="204.25"
      x2="203.21001"
      y2="38.529999"
-     style="stroke:#000000;stroke-width:0.4;stroke-linecap:butt;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     style="stroke:#53676c;stroke-width:0.4;stroke-linecap:butt;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
      id="line27661"
      clip-path="url(#clipPath29987)" />
   <polyline
@@ -2882,9 +2882,9 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.33333px;font-family:Arial;-inkscape-font-specification:Arial;white-space:pre;shape-inside:url(#rect31470);display:inline;fill:none;stroke:none;stroke-width:0.573333"><tspan
          x="13.628906"
          y="42.64532"
-         id="tspan23028"><tspan
+         id="tspan31079"><tspan
            style="fill:#000000"
-           id="tspan23026">Speed during baseline and retention</tspan></tspan></text>
+           id="tspan31077">Speed during baseline and retention</tspan></tspan></text>
   </g>
   <defs
      id="defs27864">
@@ -2928,7 +2928,7 @@
      y1="204.25999"
      x2="250.82001"
      y2="25.07"
-     style="stroke:#000000;stroke-width:0.4;stroke-linecap:butt;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     style="stroke:#53676c;stroke-width:0.4;stroke-linecap:butt;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
      id="line27879"
      clip-path="url(#clipPath32394)" />
   <line
@@ -2936,7 +2936,7 @@
      y1="204.25999"
      x2="293.28"
      y2="25.07"
-     style="stroke:#000000;stroke-width:0.4;stroke-linecap:butt;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     style="stroke:#53676c;stroke-width:0.4;stroke-linecap:butt;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
      id="line27881"
      clip-path="url(#clipPath32388)" />
   <line
@@ -2944,7 +2944,7 @@
      y1="204.25999"
      x2="336.72"
      y2="25.07"
-     style="stroke:#000000;stroke-width:0.4;stroke-linecap:butt;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     style="stroke:#53676c;stroke-width:0.4;stroke-linecap:butt;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
      id="line27883"
      clip-path="url(#clipPath32382)" />
   <line
@@ -2952,7 +2952,7 @@
      y1="204.25999"
      x2="378.22"
      y2="25.07"
-     style="stroke:#000000;stroke-width:0.4;stroke-linecap:butt;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     style="stroke:#53676c;stroke-width:0.4;stroke-linecap:butt;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
      id="line27885"
      clip-path="url(#clipPath32376)" />
   <line
@@ -2960,7 +2960,7 @@
      y1="204.25999"
      x2="411.66"
      y2="25.07"
-     style="stroke:#000000;stroke-width:0.4;stroke-linecap:butt;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     style="stroke:#53676c;stroke-width:0.4;stroke-linecap:butt;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
      id="line27887"
      clip-path="url(#clipPath32370)" />
   <polygon
@@ -3148,9 +3148,9 @@
      style="font-weight:bold;font-size:6.66667px;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect17400);display:inline;fill:#000000;fill-opacity:1;stroke:#6f8a91;stroke-width:0.8;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:0.8, 0.8"><tspan
        x="-272.02148"
        y="112.87027"
-       id="tspan23032"><tspan
+       id="tspan31083"><tspan
          style="font-weight:normal;-inkscape-font-specification:Arial;stroke:none"
-         id="tspan23030">Gate 1</tspan></tspan></text>
+         id="tspan31081">Gate 1</tspan></tspan></text>
   <text
      xml:space="preserve"
      transform="matrix(0,-0.75,0.75,0,-24.64756,-147.87722)"
@@ -3158,9 +3158,9 @@
      style="font-weight:bold;font-size:6.66667px;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect17400-6);display:inline;fill:#000000;fill-opacity:1;stroke:#6f8a91;stroke-width:0.8;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:0.8, 0.8"><tspan
        x="-272.02148"
        y="112.87027"
-       id="tspan23036"><tspan
+       id="tspan31087"><tspan
          style="font-weight:normal;-inkscape-font-specification:Arial;stroke:none"
-         id="tspan23034">Gate 2</tspan></tspan></text>
+         id="tspan31085">Gate 2</tspan></tspan></text>
   <text
      xml:space="preserve"
      transform="matrix(0,-0.75,0.75,0,-3.6075591,-147.87722)"
@@ -3168,9 +3168,9 @@
      style="font-weight:bold;font-size:6.66667px;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect17400-6-6);display:inline;fill:#000000;fill-opacity:1;stroke:#6f8a91;stroke-width:0.8;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:0.8, 0.8"><tspan
        x="-272.02148"
        y="112.87027"
-       id="tspan23040"><tspan
+       id="tspan31091"><tspan
          style="font-weight:normal;-inkscape-font-specification:Arial;stroke:none"
-         id="tspan23038">Gate 3</tspan></tspan></text>
+         id="tspan31089">Gate 3</tspan></tspan></text>
   <text
      xml:space="preserve"
      transform="matrix(0,-0.75,0.75,0,16.502441,-147.87722)"
@@ -3178,9 +3178,9 @@
      style="font-weight:bold;font-size:6.66667px;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect17400-6-6-7);display:inline;fill:#000000;fill-opacity:1;stroke:#6f8a91;stroke-width:0.8;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:0.8, 0.8"><tspan
        x="-272.02148"
        y="112.87027"
-       id="tspan23044"><tspan
+       id="tspan31095"><tspan
          style="font-weight:normal;-inkscape-font-specification:Arial;stroke:none"
-         id="tspan23042">Gate 4</tspan></tspan></text>
+         id="tspan31093">Gate 4</tspan></tspan></text>
   <text
      xml:space="preserve"
      transform="matrix(0,-0.75,0.75,0,45.982437,-147.87722)"
@@ -3188,9 +3188,9 @@
      style="font-weight:bold;font-size:6.66667px;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect17400-3);display:inline;fill:#000000;fill-opacity:1;stroke:#6f8a91;stroke-width:0.8;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:0.8, 0.8"><tspan
        x="-272.02148"
        y="112.87027"
-       id="tspan23048"><tspan
+       id="tspan31099"><tspan
          style="font-weight:normal;-inkscape-font-specification:Arial;stroke:none"
-         id="tspan23046">Gate 1</tspan></tspan></text>
+         id="tspan31097">Gate 1</tspan></tspan></text>
   <text
      xml:space="preserve"
      transform="matrix(0,-0.75,0.75,0,66.562439,-147.87722)"
@@ -3198,9 +3198,9 @@
      style="font-weight:bold;font-size:6.66667px;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect17400-6-3);display:inline;fill:#000000;fill-opacity:1;stroke:#6f8a91;stroke-width:0.8;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:0.8, 0.8"><tspan
        x="-272.02148"
        y="112.87027"
-       id="tspan23052"><tspan
+       id="tspan31103"><tspan
          style="font-weight:normal;-inkscape-font-specification:Arial;stroke:none"
-         id="tspan23050">Gate 2</tspan></tspan></text>
+         id="tspan31101">Gate 2</tspan></tspan></text>
   <text
      xml:space="preserve"
      transform="matrix(0,-0.75,0.75,0,87.602432,-147.87722)"
@@ -3208,9 +3208,9 @@
      style="font-weight:bold;font-size:6.66667px;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect17400-6-6-8);display:inline;fill:#000000;fill-opacity:1;stroke:#6f8a91;stroke-width:0.8;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:0.8, 0.8"><tspan
        x="-272.02148"
        y="112.87027"
-       id="tspan23056"><tspan
+       id="tspan31107"><tspan
          style="font-weight:normal;-inkscape-font-specification:Arial;stroke:none"
-         id="tspan23054">Gate 3</tspan></tspan></text>
+         id="tspan31105">Gate 3</tspan></tspan></text>
   <text
      xml:space="preserve"
      transform="matrix(0,-0.75,0.75,0,107.71243,-147.87722)"
@@ -3218,9 +3218,9 @@
      style="font-weight:bold;font-size:6.66667px;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect17400-6-6-7-4);display:inline;fill:#000000;fill-opacity:1;stroke:#6f8a91;stroke-width:0.8;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:0.8, 0.8"><tspan
        x="-272.02148"
        y="112.87027"
-       id="tspan23060"><tspan
+       id="tspan31111"><tspan
          style="font-weight:normal;-inkscape-font-specification:Arial;stroke:none"
-         id="tspan23058">Gate 4</tspan></tspan></text>
+         id="tspan31109">Gate 4</tspan></tspan></text>
   <text
      xml:space="preserve"
      transform="matrix(0,-0.75,0.75,0,171.52245,-147.87722)"
@@ -3228,9 +3228,9 @@
      style="font-weight:bold;font-size:6.66667px;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect17400-3-0);display:inline;fill:#000000;fill-opacity:1;stroke:#6f8a91;stroke-width:0.8;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:0.8, 0.8"><tspan
        x="-272.02148"
        y="112.87027"
-       id="tspan23064"><tspan
+       id="tspan31115"><tspan
          style="font-weight:normal;-inkscape-font-specification:Arial;stroke:none"
-         id="tspan23062">Gate 1</tspan></tspan></text>
+         id="tspan31113">Gate 1</tspan></tspan></text>
   <text
      xml:space="preserve"
      transform="matrix(0,-0.75,0.75,0,213.98244,-147.87722)"
@@ -3238,9 +3238,9 @@
      style="font-weight:bold;font-size:6.66667px;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect17400-6-3-7);display:inline;fill:#000000;fill-opacity:1;stroke:#6f8a91;stroke-width:0.8;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:0.8, 0.8"><tspan
        x="-272.02148"
        y="112.87027"
-       id="tspan23068"><tspan
+       id="tspan31119"><tspan
          style="font-weight:normal;-inkscape-font-specification:Arial;stroke:none"
-         id="tspan23066">Gate 2</tspan></tspan></text>
+         id="tspan31117">Gate 2</tspan></tspan></text>
   <text
      xml:space="preserve"
      transform="matrix(0,-0.75,0.75,0,256.99244,-147.87722)"
@@ -3248,9 +3248,9 @@
      style="font-weight:bold;font-size:6.66667px;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect17400-6-6-8-4);display:inline;fill:#000000;fill-opacity:1;stroke:#6f8a91;stroke-width:0.8;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:0.8, 0.8"><tspan
        x="-272.02148"
        y="112.87027"
-       id="tspan23072"><tspan
+       id="tspan31123"><tspan
          style="font-weight:normal;-inkscape-font-specification:Arial;stroke:none"
-         id="tspan23070">Gate 3</tspan></tspan></text>
+         id="tspan31121">Gate 3</tspan></tspan></text>
   <text
      xml:space="preserve"
      transform="matrix(0,-0.75,0.75,0,298.92244,-147.87722)"
@@ -3258,9 +3258,9 @@
      style="font-weight:bold;font-size:6.66667px;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect17400-6-6-7-4-6);display:inline;fill:#000000;fill-opacity:1;stroke:#6f8a91;stroke-width:0.8;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:0.8, 0.8"><tspan
        x="-272.02148"
        y="112.87027"
-       id="tspan23076"><tspan
+       id="tspan31127"><tspan
          style="font-weight:normal;-inkscape-font-specification:Arial;stroke:none"
-         id="tspan23074">Gate 4</tspan></tspan></text>
+         id="tspan31125">Gate 4</tspan></tspan></text>
   <text
      xml:space="preserve"
      transform="matrix(0.75,0,0,0.75,-201.89808,4.9283123)"
@@ -3268,9 +3268,9 @@
      style="font-size:9.33333px;font-family:Arial;-inkscape-font-specification:Arial;white-space:pre;shape-inside:url(#rect167841-6);display:inline;fill:#576c72;fill-opacity:1;stroke:#576c72;stroke-width:0.666667;stroke-dasharray:0.666667, 0.666667;stroke-dashoffset:0;stroke-opacity:1"><tspan
        x="593.01367"
        y="17.381648"
-       id="tspan23080"><tspan
+       id="tspan31131"><tspan
          style="fill:#000000;stroke:none"
-         id="tspan23078">baseline and retention in the local positioning section</tspan></tspan></text>
+         id="tspan31129">baseline and retention in the local positioning section</tspan></tspan></text>
   <text
      xml:space="preserve"
      transform="matrix(0.75,0,0,0.75,-415.01433,4.9283123)"
@@ -3278,9 +3278,9 @@
      style="font-size:9.33333px;font-family:Arial;-inkscape-font-specification:Arial;white-space:pre;shape-inside:url(#rect167841-6-8);display:inline;fill:#576c72;fill-opacity:1;stroke:#576c72;stroke-width:0.666667;stroke-dasharray:0.666667, 0.666667;stroke-dashoffset:0;stroke-opacity:1"><tspan
        x="593.01367"
        y="17.381648"
-       id="tspan23084"><tspan
+       id="tspan31135"><tspan
          style="fill:#000000;stroke:none"
-         id="tspan23082">in the local positioning section</tspan></tspan></text>
+         id="tspan31133">in the local positioning section</tspan></tspan></text>
   <text
      xml:space="preserve"
      transform="matrix(0,-0.75,0.75,0,-125.45256,27.28279)"
@@ -3288,9 +3288,9 @@
      style="font-weight:bold;font-size:6.66667px;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect30232);display:inline;fill:#6f8a91;stroke:#000000;stroke-width:0.573333"><tspan
        x="-143.76562"
        y="181.01675"
-       id="tspan23088"><tspan
+       id="tspan31139"><tspan
          style="font-weight:normal;-inkscape-font-specification:Arial;fill:#000000;stroke:none"
-         id="tspan23086">Speed (m/s)</tspan></tspan></text>
+         id="tspan31137">Speed (m/s)</tspan></tspan></text>
   <text
      xml:space="preserve"
      transform="matrix(0.75,0,0,0.75,-60.264288,-22.740574)"
@@ -3298,7 +3298,7 @@
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.33333px;font-family:Arial;-inkscape-font-specification:Arial;white-space:pre;shape-inside:url(#rect32244);display:inline;fill:#000000;stroke:none;stroke-width:0.573333"><tspan
        x="404.04102"
        y="44.307429"
-       id="tspan23090">Expected mean difference in speed during</tspan></text>
+       id="tspan31141">Expected mean difference in speed during</tspan></text>
   <text
      xml:space="preserve"
      transform="matrix(0,-0.75,0.75,0,144.17478,414.80919)"
@@ -3306,7 +3306,7 @@
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:Arial;-inkscape-font-specification:Arial;white-space:pre;shape-inside:url(#rect33016);display:inline;fill:#000000;stroke:none;stroke-width:0.573333"><tspan
        x="353.74609"
        y="103.31363"
-       id="tspan23092">Difference in mean speed (m/s)</tspan></text>
+       id="tspan31143">Difference in mean speed (m/s)</tspan></text>
   <text
      xml:space="preserve"
      transform="matrix(0,-0.75,0.75,0,19.827712,377.64076)"
@@ -3314,5 +3314,5 @@
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:Arial;-inkscape-font-specification:Arial;white-space:pre;shape-inside:url(#rect33022);display:inline;fill:#000000;stroke:none;stroke-width:0.573333"><tspan
        x="292.63281"
        y="276.30972"
-       id="tspan23094">(relative to speed when straight gliding)</tspan></text>
+       id="tspan31145">(relative to speed when straight gliding)</tspan></text>
 </svg>
