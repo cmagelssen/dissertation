@@ -102,11 +102,12 @@ On the third and last day, the skiers performed a retention test and a transfer 
 De ulike målene og forskningspørsmålet har favnet nokså bredt. Derfor har jeg valgt å dele inn measures og analyse etter hva som er formålet med de enkelte studiene. 
 
 
+\subsection{Paper 1}
+I Paper \RNum{1} var målet å teste om kontekstuell interferens effekten på gode skikjørere. Her regnet vi prestasjon som tidsforskjellen mellom tiden i løypen og gjennomsnittet av rundene hvor utøverne gjennomførte straight gliding. 
+
+
 \subsection{Paper 2}
 I Paper \RNum{2} var målet å forsøke å forklare forbedringer i renntidene fra Studie \RNum{1}. For å få innsikt i dette monitored vi skiers using a local positioning system in a five gate long section in the middle of the course during the baseline and retention sessions. Opprinnelig var det opprinnelige opptaksområder betydelige lenger, men på grunn av utfordringer med data kvaliteten i det øverste området av sekvensen (der nodene kom for tett på veggene i skihallen) måtte vi korte ned området. 
-
-
-
 
 \subsection{Paper 3}
 In Paper \RNum{3} (basert på Studie \RNum{2}) ønsket vi å teste om reinforcement learning forbedret sine renntider mer under trening (acquisition) og presterte bedre under retention og transfer enn supervised (free choice) learning, men også å sammenligne opp mot supervised (target skill) learning som var på benchmark gruppe for optimal prestasjon gjennom optimale valg av strategier. To account for these multilevel data structures, we leveraged linear mixed-effects models. To model random effects, we adopted a design-driven approach \cite{barr_random_2013, barr_learning_2021}, where we sought to account for all nonindependence introduced by repeated sampling from the same ski group and skier. We deployed classical frequentist statistics and fitted these models with the lme4 package \cite{bates_fitting_2015} in the R \cite{r_core_team_r_2022} programming language. We used a simple coding scheme for our predictors where the intercepts represent the estimated mean of the cell means and the contrasts represent the estimated difference with respect to the reference level, which we set for reinforcement learning. Two-tailed p values and degrees of freedom for each model were derived using the lmerTest package \cite{kuznetsova_lmertest_2017} via the Satterthwaite approximation method. Alpha was set to 0.05 for all test statistics.
