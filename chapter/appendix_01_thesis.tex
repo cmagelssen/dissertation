@@ -1,4 +1,6 @@
-\section{Details of statistical models}\label{study3:estimateddifferencebetweenstrategies}
+
+
+\section*{Details of statistical models}\label{study3:estimateddifferencebetweenstrategies}
 
 Model 1: Differences in race times between the strategies during the forced exploration session
 
@@ -12,42 +14,52 @@ brm(formula = racingtime ~ 0 + strategy +
     family = gaussian)
 \end{verbatim}
 
+\clearpage
 
+\section*{Supplementary tables for Study \RNum{1}}\label{study1:CIracetime}
 
-\subsection{Racetimes: difference between learning groups for each course at each trial block}\
+\afterpage{
 \begin{table}[ht]\label{paper1: racetimedifferencebetweentreatments}
 \centering
+\begin{threeparttable}
+\caption{Race times: difference between the learning groups for each course at each trial block}\label{paper1: racetimedifferencebetweentreatments}
 \begin{tabular}{llrrrrrrl}
   \hline
 Term & Estimate & SE & df & CI & t & p \\ 
   \hline
-(Intercept) & 0.52 & 0.21 & 5.81 & -0.01 & 1.05 & 2.44 &  =  0.052 \\ 
-block 2 & -0.21 & 0.03 & 499.93 & -0.28 & -0.14 & -6.29 &  $<$  0.001 \\ 
-block 3 & -0.33 & 0.03 & 500.58 & -0.40 & -0.27 & -9.72 &  $<$  0.001 \\ 
-course B & 0.87 & 0.03 & 499.63 & 0.80 & 0.93 & 25.70 &  $<$  0.001 \\ 
-course C & 2.04 & 0.03 & 503.12 & 1.97 & 2.11 & 59.69 &  $<$  0.001 \\ 
-block 2 : course B & -0.02 & 0.08 & 499.43 & -0.18 & 0.14 & -0.25 &  =  0.801 \\ 
-block 3 : course B & 0.01 & 0.08 & 499.47 & -0.16 & 0.17 & 0.07 &  =  0.940 \\ 
-block 2 : course C & 0.02 & 0.08 & 499.43 & -0.14 & 0.18 & 0.25 &  =  0.804 \\ 
-block 3 : course C & -0.00 & 0.08 & 499.45 & -0.17 & 0.16 & -0.02 &  =  0.988 \\ 
-block 1 : course A : blocked & 0.17 & 0.18 & 91.97 & -0.19 & 0.53 & 0.95 &  =  0.344 \\ 
-block 2 : course A : blocked & 0.04 & 0.18 & 92.64 & -0.32 & 0.40 & 0.23 &  =  0.818 \\ 
-block 3 : course A : blocked & 0.12 & 0.18 & 96.10 & -0.24 & 0.48 & 0.66 &  =  0.509 \\ 
-block 1 : course B : blocked & -0.03 & 0.18 & 91.24 & -0.38 & 0.33 & -0.14 &  =  0.886 \\ 
-block 2 : course B : blocked & 0.03 & 0.18 & 91.91 & -0.32 & 0.39 & 0.18 &  =  0.859 \\ 
-block 3 : course B : blocked & 0.14 & 0.18 & 95.30 & -0.22 & 0.50 & 0.77 &  =  0.444 \\ 
-block 1 : course C : blocked & 0.14 & 0.18 & 92.07 & -0.21 & 0.50 & 0.81 &  =  0.421 \\ 
-block 2 : course C : blocked & 0.08 & 0.18 & 92.74 & -0.27 & 0.44 & 0.46 &  =  0.646 \\ 
-block 3 : course C : blocked & 0.31 & 0.18 & 97.04 & -0.05 & 0.68 & 1.73 &  =  0.088 \\ 
-sd(Intercept) & 0.64 &  &  &  &  &  &  \\ 
-sd(Intercept) & 0.46 &  &  &  &  &  &  \\ 
-sd(Observation) & 0.33 &  &  &  &  &  &  \\ 
+(Intercept) & 0.52 & 0.21 & 5.81 & -0.01-1.05 & 2.44 &    0.052 \\ 
+block 2 & -0.21 & 0.03 & 499.93 & -0.28--0.14 & -6.29 &  $<$  0.001 \\ 
+block 3 & -0.33 & 0.03 & 500.58 & -0.40--0.27 & -9.72 &  $<$  0.001 \\ 
+course B & 0.87 & 0.03 & 499.63 & 0.80-0.93 & 25.70 &  $<$  0.001 \\ 
+course C & 2.04 & 0.03 & 503.12 & 1.97-2.11 & 59.69 &  $<$  0.001 \\ 
+block 2 : course B & -0.02 & 0.08 & 499.43 & -0.18-0.14 & -0.25 &    0.801 \\ 
+block 3 : course B & 0.01 & 0.08 & 499.47 & -0.16-0.17 & 0.07 &    0.940 \\ 
+block 2 : course C & 0.02 & 0.08 & 499.43 & -0.14-0.18 & 0.25 &    0.804 \\ 
+block 3 : course C & -0.00 & 0.08 & 499.45 & -0.17-0.16 & -0.02 &    0.988 \\ 
+block 1 : course A : blocked & 0.17 & 0.18 & 91.97 & -0.19-0.53 & 0.95 &    0.344 \\ 
+block 2 : course A : blocked & 0.04 & 0.18 & 92.64 & -0.32-0.40 & 0.23 &    0.818 \\ 
+block 3 : course A : blocked & 0.12 & 0.18 & 96.10 & -0.24-0.48 & 0.66 &    0.509 \\ 
+block 1 : course B : blocked & -0.03 & 0.18 & 91.24 & -0.38-0.33 & -0.14 &    0.886 \\ 
+block 2 : course B : blocked & 0.03 & 0.18 & 91.91 & -0.32-0.39 & 0.18 &    0.859 \\ 
+block 3 : course B : blocked & 0.14 & 0.18 & 95.30 & -0.22-0.50 & 0.77 &    0.444 \\ 
+block 1 : course C : blocked & 0.14 & 0.18 & 92.07 & -0.21-0.50 & 0.81 &    0.421 \\ 
+block 2 : course C : blocked & 0.08 & 0.18 & 92.74 & -0.27-0.44 & 0.46 &    0.646 \\ 
+block 3 : course C : blocked & 0.31 & 0.18 & 97.04 & -0.05-0.68 & 1.73 &    0.088 \\ 
+sd(Intercept) & 0.64 &  &  &  &  &   \\ 
+sd(Intercept) & 0.46 &  &  &  &  &   \\ 
+sd(Observation) & 0.33 &  &  &  &  &   \\ 
    \hline
 \end{tabular}
+\begin{tablenotes}
+\item[1] Formula: racetime $\sim$ trialblock * course / treatment + (1 $|$ skier) + (1 $|$  skiacademy)
+\end{tablenotes}
+\end{threeparttable}
 \end{table}
+
 
 \begin{table}[ht]
 \centering
+\begin{threeparttable}
 \caption{Race times: change per course for each treatment}\label{paper1: racetimechangepercourse}
 \begin{tabular}{llrrrrrrl}
   \hline
@@ -74,13 +86,17 @@ sd(Intercept) & 0.46 &  &  &  &  &   \\
 sd(Observation) & 0.33 &  &  &  &  &  \\ 
    \hline
 \end{tabular}
+\begin{tablenotes}
+\item[1] Formula: racetime $\sim$ course * treatment / trialblock + (1 $|$ skier) + (1 $|$ skiacademy)
+\end{tablenotes}
+\end{threeparttable}
 \end{table}
 
-\subsubsection{Interaction model}
 
 \begin{table}[ht]
 \caption{Race times: differences in improvement across trial blocks}\label{paper1: racetimeinteraction}
 \centering
+\begin{threeparttable}
 \begin{tabular}{llrrrrrrl}
   \hline
 Term & Estimate & SE & df & CI & t & p \\ 
@@ -103,17 +119,26 @@ course C : blocked : block 2 & -0.06 & 0.12 & 499.60 & -0.29-0.17 & -0.54 &    0
 course A : blocked : block 3 & -0.05 & 0.12 & 499.85 & -0.28-0.18 & -0.43 &    0.671 \\ 
 course B : blocked : block 3 & 0.16 & 0.12 & 499.83 & -0.07-0.40 & 1.41 &    0.160 \\ 
 course C : blocked : block 3 & 0.17 & 0.12 & 499.88 & -0.06-0.40 & 1.42 &    0.156 \\ 
-sd(Intercept) & 0.64 &  &  &  &  &  & \\ 
-sd(Intercept) & 0.46 &  &  &  &  &  &  \\ 
-sd(Observation) & 0.33 &  &  &  &  &  &  \\ 
+sd(Intercept) & 0.64 &  &  &  &  &   \\ 
+sd(Intercept) & 0.46 &  &  &  &  &    \\ 
+sd(Observation) & 0.33 &  &  &  &  &    \\ 
    \hline
 \end{tabular}
+\begin{tablenotes}
+\item[1] Formula: racetime $\sim$ course / treatment * trialblock + (1 $|$ skier) + (1 $|$ skiacademy)
+\end{tablenotes}
+\end{threeparttable}
 \end{table}
 
-\section{Sensitivity analysis}
+
+\clearpage
+}
+
+\afterpage{
+\section*{Senstivity analysis for the Bayesian models of the contextual interference effect}
 
 \begin{table}[ht]
-\caption{Senstivity analysis for the Bayesian models of the contextual interference effect}\label{paper1: racetimeinteraction}
+\caption{Senstivity analysis for the Bayesian models of the contextual interference effect}\label{paper1: sens}
 \centering
 \begin{tabular}{lrrrr}
     & Course A & Course B & Course C \\
@@ -123,3 +148,5 @@ sd(Observation) & 0.33 &  &  &  &  &  &  \\
     normal(0, 0.2)   & 0.643 & 0.763 & 0.574 \\
 \end{tabular}
 \end{table}
+\clearpage
+}

@@ -1,43 +1,109 @@
-\documentclass{report}
-\usepackage[
-backend=biber,
-style=nature,
-]{biblatex}
-\addbibresource{references.bib} %Import the bibliography file
+\documentclass[12pt, twoside]{report}
+\usepackage[utf8]{inputenc}
+%\usepackage[backend=biber,style=apa,
+%]{biblatex}
+%\usepackage{apacite}
+\usepackage[backend=biber,style=apa,]{biblatex}
+\addbibresource{references.bib}
+%\urlstyle{sf}
+%\addbibresource{sample.bib}
+
+%\addbibresource{references.bib} %Import the bibliography file
 \usepackage{graphicx} % Required for inserting images
 \usepackage{float}
+\usepackage[a4paper,width=15cm,top=2.5cm,bottom=2.5cm]{geometry}
+\linespread{1}
 \usepackage{booktabs}
 \usepackage{longtable}
 \usepackage{tablefootnote}
 \usepackage{pdfpages}
+\usepackage{afterpage}
 \usepackage{caption}
+\usepackage{threeparttable}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\pagestyle{fancy}
+\fancyhead{}
+\fancyhead[LE]{\leftmark} % chapter on left even pages
+\fancyhead[RO]{\rightmark} % section on right odd pages
+\setlength\evensidemargin{\oddsidemargin}
+
+
 \captionsetup[figure]{font=footnotesize}
 
-%\title{Accelerating sporting expertise through effectice learning problems and teaching signals}
-%\title{Making the hours count: can we improve skill learning by using more effective learning problems and more effective teaching signals?}
-%\title{Skill learning in elite athletes: can we improve skill learning by using more effective learning problems and more effective teaching signals?}
-\title{Bridging laboratory and real-world skill learning: Can we teaching strategies to improve skill learning in skilled athletes}
+
+%\title{Improving teaching and movement strategies for skill learning and performance in skilled and elite alpine ski racers}
 
 
-\author{Christian Magelssen}
-\date{January 2024}
+
 
 \begin{document}
+
+\begin{titlepage}
+    \begin{center}
+        \vspace*{1cm}
+            
+        \Huge
+        \textbf{Improving teaching and movement strategies for skill learning and performance in skilled and elite alpine ski racers}
+            
+        \vspace{0.5cm}
+        \large
+            
+        \vspace{1.5cm}
+            
+        \textbf{Christian Magelssen}
+            
+        \vfill
+            
+        Dissertation from the Norwegian School of Sport Sciences
+            
+        \vspace{0.8cm}
+            
+        \large
+        2024
+            
+    \end{center}
+\end{titlepage}
+
+\pagenumbering{roman}
+
 \newcommand{\RNum}[1]{\uppercase\expandafter{\romannumeral #1\relax}}
 
 
-\maketitle
 
-\tableofcontents 
+\chapter*{Summary}
+\input{abstract}
+
+\chapter*{Sammendrag}
+\input{abstract_no}
+
+\chapter*{Acknowledgement}
+\input{acknowledgement}
+
+\chapter*{List of papers}
+The thesis is based on the following research papers:
+
+\begin{enumerate}[label=\Roman*.]
+\item Magelssen, C., Haugen, P., Reid, R., \& Gilgien, M. (2022). Is there a
+contextual interference effect for sub-elite alpine ski racers learning complex skills? \textit{Frontiers in Bioengineering and Biotechnology}, 10. doi: 10.3389/fbioe.2022.966041
+    \item Magelssen, C., Reid, R., Luteberget, L. S., Gilgien, M., Jølstad, P. A. H., \& Haugen, P. (2024). The kinematic changes following a training intervention on pumping in slalom. SportRxiv. https://doi.org/10.51224/SRXIV.426 (preprint)
+    \item Magelssen, C., Gilgien, M., Tajet, S. L., Losnegard, T., Haugen, P., Reid,
+R., \& Frömer, R. (2024). Reinforcement learning enhances training and performance in skilled alpine skiers compared to traditional coaching instruction. \textit{bioRxiv}. https://doi.org/10.1101/2024.04.22.590558 (preprint)
+\end{enumerate}
+
+
+
+\tableofcontents
 \listoffigures
+%\listoftables
+
+
+%\chapter{Introduction}
+%\input{helpers}
 
 
 \chapter{Introduction}
-\input{helpers}
-
-
-
-\chapter{Introduction}
+\pagenumbering{arabic}
 \input{chapter/01_introduction}
 
 \chapter{Background}
@@ -57,16 +123,52 @@ style=nature,
 \chapter{General discussion}
 \input{chapter/06_discussion}
 
+%\chapter{Conclusion}
+%\input{chapter/07_conclusion}
+
+
+\printbibliography[]
+
+\clearpage
+\pagenumbering{gobble}
+
+
+\chapter*{Paper \RNum{1}} 
+\includepdf[pages={-}]{appendix/papers/paper_1.pdf}
+
+
+
+\chapter*{Paper \RNum{2}} 
+\includepdf[pages={-}]{appendix/papers/paper_2.pdf}
+
+
+
+\chapter*{Paper \RNum{3}} 
+\includepdf[pages={-}]{appendix/papers/paper_3.pdf}
+
+
+
+\appendix
+
 \chapter{Appendix Thesis}
+Supplementary material for the thesis
+\newpage
 \input{chapter/appendix_01_thesis}
 
-
 \chapter{Appendix Paper \RNum{1}}
-\input{chapter/appendix_02_paper3}
+\input{chapter/appendix_02_paper1}
+
+\chapter{Appendix Paper \RNum{2}}
+Supplementary material for Paper \RNum{2} is in the preprint.
+
+
+\chapter{Appendix Paper \RNum{3}}
+Supplementary material, the approval letter from the Human Research Ethics Committee of the Norwegian School of Sport Sciences, and the approval letter from the Norwegian Agency for Shared Services in Education and Research for Paper \RNum{3}.
+\input{chapter/appendix_04_paper3}
 
 
 
 
-\printbibliography
+
 
 \end{document}
