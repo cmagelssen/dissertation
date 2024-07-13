@@ -23,9 +23,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="pt"
      showgrid="false"
-     inkscape:zoom="2.2643756"
-     inkscape:cx="-66.243427"
-     inkscape:cy="260.11586"
+     inkscape:zoom="1.6011553"
+     inkscape:cx="-286.04345"
+     inkscape:cy="211.72212"
      inkscape:window-width="5120"
      inkscape:window-height="1369"
      inkscape:window-x="-8"
@@ -7488,6 +7488,42 @@
            id="rect63197" />
       </g>
     </clipPath>
+    <rect
+       x="510.21454"
+       y="342.86133"
+       width="24.81933"
+       height="26.946701"
+       id="rect12899-2-6-6-6-1-9-4" />
+    <rect
+       x="510.21454"
+       y="342.86133"
+       width="24.81933"
+       height="26.946701"
+       id="rect12899-2-6-6-6-1-9-4-6" />
+    <rect
+       x="510.21454"
+       y="342.86133"
+       width="24.81933"
+       height="26.946701"
+       id="rect12899-2-6-6-6-1-9-4-6-7" />
+    <rect
+       x="510.21454"
+       y="342.86133"
+       width="24.81933"
+       height="26.946701"
+       id="rect12899-2-6-6-6-1-9-4-5" />
+    <rect
+       x="510.21454"
+       y="342.86133"
+       width="24.81933"
+       height="26.946701"
+       id="rect12899-2-6-6-6-1-9-4-6-7-9" />
+    <rect
+       x="510.21454"
+       y="342.86133"
+       width="24.81933"
+       height="26.946701"
+       id="rect12899-2-6-6-6-1-9-4-5-9" />
   </defs>
   <rect
      width="100%"
@@ -13568,4 +13604,64 @@
        lengthAdjust="spacingAndGlyphs"
        id="text122045">b</text>
   </g>
+  <text
+     xml:space="preserve"
+     transform="matrix(0.75,0,0,0.75,-325.43617,-150.1636)"
+     id="text12897-8-8-8-8-8-0-5"
+     style="font-size:9.33333px;white-space:pre;shape-inside:url(#rect12899-2-6-6-6-1-9-4);display:inline;fill:#2d9c9c;fill-opacity:1;stroke:none"><tspan
+       x="510.21484"
+       y="351.37641"
+       id="tspan9286"><tspan
+         style="-inkscape-font-specification:sans-serif"
+         id="tspan9284">*</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     transform="matrix(0.75,0,0,0.75,-327.29927,-142.79401)"
+     id="text12897-8-8-8-8-8-0-5-3"
+     style="font-size:9.33333px;white-space:pre;shape-inside:url(#rect12899-2-6-6-6-1-9-4-6);display:inline;fill:#659a32;fill-opacity:1;stroke:none"><tspan
+       x="510.21484"
+       y="351.37641"
+       id="tspan9290"><tspan
+         style="-inkscape-font-specification:sans-serif"
+         id="tspan9288">*</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     transform="matrix(0.75,0,0,0.75,-241.91223,-163.70956)"
+     id="text12897-8-8-8-8-8-0-5-2"
+     style="font-size:9.33333px;white-space:pre;shape-inside:url(#rect12899-2-6-6-6-1-9-4-5);display:inline;fill:#2d9c9c;fill-opacity:1;stroke:none"><tspan
+       x="510.21484"
+       y="351.37641"
+       id="tspan9294"><tspan
+         style="-inkscape-font-specification:sans-serif"
+         id="tspan9292">*</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     transform="matrix(0.75,0,0,0.75,-243.77533,-156.33997)"
+     id="text12897-8-8-8-8-8-0-5-3-6"
+     style="font-size:9.33333px;white-space:pre;shape-inside:url(#rect12899-2-6-6-6-1-9-4-6-7);display:inline;fill:#659a32;fill-opacity:1;stroke:none"><tspan
+       x="510.21484"
+       y="351.37641"
+       id="tspan9298"><tspan
+         style="-inkscape-font-specification:sans-serif"
+         id="tspan9296">*</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     transform="matrix(0.75,0,0,0.75,-158.30073,-183.03154)"
+     id="text12897-8-8-8-8-8-0-5-2-2"
+     style="font-size:9.33333px;white-space:pre;shape-inside:url(#rect12899-2-6-6-6-1-9-4-5-9);display:inline;fill:#2d9c9c;fill-opacity:1;stroke:none"><tspan
+       x="510.21484"
+       y="351.37641"
+       id="tspan9302"><tspan
+         style="-inkscape-font-specification:sans-serif"
+         id="tspan9300">*</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     transform="matrix(0.75,0,0,0.75,-158.29018,-175.54485)"
+     id="text12897-8-8-8-8-8-0-5-3-6-3"
+     style="font-size:9.33333px;white-space:pre;shape-inside:url(#rect12899-2-6-6-6-1-9-4-6-7-9);display:inline;fill:#659a32;fill-opacity:1;stroke:none"><tspan
+       x="510.21484"
+       y="351.37641"
+       id="tspan9306"><tspan
+         style="-inkscape-font-specification:sans-serif"
+         id="tspan9304">*</tspan></tspan></text>
 </svg>
